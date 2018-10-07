@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bun Bun Bakeshop</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/item.css">
+    <script src="../scripts/item.js"></script>
+</head>
+
+<body>
+    <header>
+        <a id="logo" href="../index.html">Bun Bun<br>Bakeshop</a>
+        <nav>
+            <a href="../about.html">ABOUT</a>
+            <a href="../menu.html">MENU</a>
+            <a href="../contact.html">CONTACT</a>
+            <a href="../cart.html">CART</a>
+        </nav>
+    </header>
+    <main id="item-main">
+        <img src="../images/original.jpg">
+        <div id="description">
+            <h1>Original</h1>
+            <h3>$2.99</h3>
+            <p>Our original cinnamon roll is the best in Pittsburgh. It is the most popular roll sold in our store. Our roll will give you the most satisfying crunch that you have had in years.</p>
+            <h1>Glazing</h1>
+            <div>
+                <button class="glazing-btn">None</button><button class="glazing-btn">Suger-milk</button><button class="glazing-btn">Vanilla-milk</button><button class="glazing-btn">Double-chocolate</button>
+            </div>
+            <h1>Quantity</h1>
+            <div>
+                <button class="quantity-btn">1</button><button class="quantity-btn">3</button><button class="quantity-btn">6</button><button class="quantity-btn">12</button>
+            </div>
+            <button id="add-to-cart-btn">ADD TO CART</button>
+        </div>
+    </main>
+    <script>loadPage("Original");</script>
+</body>
+
+</html>

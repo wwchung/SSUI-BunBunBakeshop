@@ -1,0 +1,25 @@
+#menu-section {
+    width: 100%;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    text-align: center;
+}
+
+.item:hover {
+    color: #26a69a;
+    cursor: pointer;
+    transition: color .2s ease-out;
+}
+
+.item img {
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+}

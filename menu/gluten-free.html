@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bun Bun Bakeshop</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/item.css">
+    <script src="../scripts/item.js"></script>
+</head>
+
+<body>
+    <header>
+        <a id="logo" href="../index.html">Bun Bun<br>Bakeshop</a>
+        <nav>
+            <a href="../about.html">ABOUT</a>
+            <a href="../menu.html">MENU</a>
+            <a href="../contact.html">CONTACT</a>
+            <a href="../cart.html">CART</a>
+        </nav>
+    </header>
+    <main id="item-main">
+        <img src="../images/gluten-free.jpg">
+        <div id="description">
+            <h1>Gluten-Free</h1>
+            <h3>$2.99</h3>
+            <p>Our gluten-free cinnamon roll is the best in Pittsburgh. Enjoy the same best original cinnamon roll that is simply gluten-free.</p>
+            <h1>Glazing</h1>
+            <div>
+                <button class="glazing-btn">None</button><button class="glazing-btn">Suger-milk</button><button class="glazing-btn">Vanilla-milk</button><button class="glazing-btn">Double-chocolate</button>
+            </div>
+            <h1>Quantity</h1>
+            <div>
+                <button class="quantity-btn">1</button><button class="quantity-btn">3</button><button class="quantity-btn">6</button><button class="quantity-btn">12</button>
+            </div>
+            <button id="add-to-cart-btn">ADD TO CART</button>
+        </div>
+    </main>
+    <script>loadPage("Gluten Free");</script>
+</body>
+
+</html>

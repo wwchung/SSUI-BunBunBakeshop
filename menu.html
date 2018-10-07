@@ -5,7 +5,8 @@
     <title>Bun Bun Bakeshop</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./styles/default.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <script src="./scripts/menu.js"></script>
 </head>
 
 <body>
@@ -18,9 +19,13 @@
             <a href="./cart.html">CART</a>
         </nav>
     </header>
-    <main id="home-main">
-        <a id="order-now-btn" href="./menu.html">ORDER NOW</a>
+    <main id="menu-main">
+        <section id="menu-section">
+            <div class="menu-row"></div>
+            <div class="menu-row"></div>
+        </section>
     </main>
+    <script>loadPage();</script>
 </body>
 
 </html>

@@ -1,0 +1,19 @@
+#about-main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), url("../images/about.jpg");
+    background-size: cover;
+}
+
+#about-section {
+    color: #fafafa;
+    padding: 40px;
+    text-align: center;
+    width: 640px;
+}
+
+#about-section h1 {
+    font-size: 2em;
+}
+
+#about-section p {
+    font-size: 1.5em;
+}

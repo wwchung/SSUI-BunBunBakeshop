@@ -1,0 +1,65 @@
+/*
+box-shadow: https://www.w3schools.com/css/css3_shadows.asp
+transition: https://www.w3schools.com/css/css3_transitions.asp
+colors: https://materializecss.com/
+*/
+
+body {
+    background-color: #f5f5f5;
+    color: rgb(0,0,0,0.87);
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+a {
+    color: rgb(0,0,0,0.87);
+    text-decoration: none;
+}
+
+header {
+    align-items: center;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 0 40px;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#logo:hover {
+    color: #26a69a;
+    cursor: pointer;
+    transition: color .2s ease-out;
+}
+
+nav {
+    padding: 0 20px;
+}
+
+nav a {
+    font-size: 1.5em;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #26a69a;
+    cursor: pointer;
+    transition: color .2s ease-out;
+}
+
+main {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    z-index: -1;
+}

@@ -1,0 +1,16 @@
+#contact-section {
+    text-align: center;
+}
+
+#contact-section h1 {
+    font-size: 2em;
+}
+
+#contact-section p {
+    font-size: 1.5em;
+}
+
+#contact-section img {
+    margin: 20px;
+    width: 600px;
+}

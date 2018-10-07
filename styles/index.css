@@ -1,0 +1,23 @@
+#home-main {
+    background-image: url("../images/home.jpg");
+    background-size: cover;
+}
+
+#order-now-btn {
+    background-color: #26a69a;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fafafa;
+    font-size: 2em;
+    padding: 12px 36px;
+}
+
+#order-now-btn:hover {
+    background-color: #2bbbad;
+    cursor: pointer;
+    transition: background-color .2s ease-out;
+}
+
+#order-now-btn:active {
+    background-color: #26a69a;
+}

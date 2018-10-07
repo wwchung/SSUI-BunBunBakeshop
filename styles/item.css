@@ -1,0 +1,56 @@
+#item-main {
+    justify-content: space-evenly;
+}
+
+#item-main img {
+    border-radius: 50%;
+    height: 400px;
+    object-fit: cover;
+    width: 400px;
+}
+
+#description {
+    width: 40%;
+}
+
+button {
+    background-color: #fafafa;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1em;
+    margin: 4px;
+    outline: none;
+    padding: 8px 12px;
+}
+
+button:hover {
+    background-color: #2bbbad;
+    color: #fafafa;
+    cursor: pointer;
+    transition: background-color .2s ease-out, color .2s ease-out;
+}
+
+button:active {
+    background-color: #26a69a;
+}
+
+.selected {
+    background-color: #26a69a;
+    color: #fafafa;
+}
+
+#add-to-cart-btn {
+    background-color: #26a69a;
+    color: #fafafa;
+    margin-top: 40px;
+    padding: 12px 24px;
+}
+
+#add-to-cart-btn:hover {
+    background-color: #2bbbad;
+}
+
+#add-to-cart-btn:active {
+    background-color: #26a69a;
+}
